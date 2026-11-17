@@ -1,28 +1,21 @@
-# CodeAlpha_Tasks-
+# CodeAlpha Python Projects
 
-This repository contains multiple projects completed as part of the CodeAlpha Internship Program.
+A collection of Python projects completed as internship exercises.
 
 ## Projects
+- **FAQ chatbot** — answers questions using text similarity
+- **Language translation tool** — translates text through a translation library
+- **AI music generator** — experiments with LSTM-based MIDI generation
+- **Object detection** — webcam object detection using OpenCV and a YOLO model
 
-### 1. Language Translation Tool
-Translate text between different languages using Python.
+## Requirements
+Use Python 3. Install the dependencies listed in `requirements.txt`:
 
-### 2. FAQ Chatbot
-NLP-based chatbot that answers frequently asked questions.
+```bash
+python -m pip install -r requirements.txt
+```
 
-### 3. AI Music Generator
-Deep learning model for generating MIDI music sequences.
+Each project is a separate script. Check its configured input, model, or data paths before running; the object detection and music generation projects may require assets that are not bundled.
 
-### 4. Object Detection and Tracking
-Real-time object detection and tracking using OpenCV.
-
-## Technologies Used
-- Python
-- NLP
-- Machine Learning
-- TensorFlow
-- OpenCV
-- Scikit-learn
-
-  ## Author
-  Ayaan Ali
+## Author
+Ayaan Ali
